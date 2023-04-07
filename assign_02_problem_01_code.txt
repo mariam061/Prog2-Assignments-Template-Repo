@@ -1,0 +1,23 @@
+//mariam saeed 
+//202206158
+import java.util.Scanner;
+
+
+public class Print_1_To_N_UsingFor
+{
+	public static void main(String[] args)
+	{
+		
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.print("Enter the value n : ");
+
+		int n = scanner.nextInt();
+
+		System.out.println("Numbers are : " );
+		for(int i=1; i<=n; i++) 
+		{
+			System.out.println(i);
+		}
+	}
+}
