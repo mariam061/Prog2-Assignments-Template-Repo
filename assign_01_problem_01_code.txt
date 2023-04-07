@@ -1,0 +1,12 @@
+//mariam saeed
+//202206158
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	string str;  
+	cin >> str;
+	cout << "Hello, " << str;
+
+}
